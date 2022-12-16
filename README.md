@@ -7,6 +7,7 @@ node 18.*
 ## Start app
 `npm install`
 `npm start`
-## Build app
+## Host app
 `npm install`
-`npm build`
+`npm run build`
+`npm run serve`

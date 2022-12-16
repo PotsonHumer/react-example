@@ -1,4 +1,4 @@
-const apiPath = 'https://6399770716b0fdad773d886d.mockapi.io/api/';
+const apiPath = 'https://6399770716b0fdad773d886d.mockapi.io/api/'
 
 /**
  * 會員登入 ajax
@@ -53,7 +53,7 @@ export const loginSend = (
   //     setToken(data.token);
   //   })
   //   .catch((error) => console.log(error));
-};
+}
 
 /**
  * 會員登入 - async await 版本
@@ -68,4 +68,4 @@ export const loginSendAsync = async (
   setAccount(user.account || '')
   setPassword(user.password || '')
   setToken(user.token || '')
-};
+}
